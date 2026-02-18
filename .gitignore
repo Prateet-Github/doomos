@@ -1,0 +1,51 @@
+# --- Build & Binary ---
+build/
+bin/
+out/
+*.exe
+*.out
+*.app
+*.o
+*.obj
+
+# --- CMake ---
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+.cmake/
+
+# --- Video Service Specific (Important!) ---
+# Don't commit the raw or transcoded videos you test with
+*.mp4
+*.m3u8
+*.ts
+*.mov
+*.mkv
+
+# --- Node.js API ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- Environment & Secrets ---
+.env
+.env.local
+.env.*.local
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS Specific ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+Thumbs.db
