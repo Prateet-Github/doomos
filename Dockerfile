@@ -10,4 +10,4 @@ COPY . .
 
 RUN mkdir build && cd build && cmake .. && make
 
-CMD ["./build/video-encoder-worker"]
+CMD ["./build/worker-cpp"]
