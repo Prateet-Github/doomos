@@ -1,6 +1,9 @@
-# Video Encoder Worker
+# DoomOS
 
-A C++ based video encoding worker built using FFmpeg.
+A basic operating system kernel written in C.
 
-This service is designed to act as a CPU-intensive encoding worker
-in a distributed video processing system.
+The goal is to understand what happens underneath a normal application:
+from booting the CPU to memory management, interrupts, processes,
+and system calls.
+
+That'it.

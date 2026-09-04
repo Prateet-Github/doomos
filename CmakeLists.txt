@@ -1,8 +1,0 @@
-cmake_minimum_required(VERSION 3.16)
-project(worker-cpp)
-
-set(CMAKE_CXX_STANDARD 17)
-
-add_executable(worker-cpp
-    src/main.cpp
-)

@@ -1,51 +1,58 @@
-# --- Build & Binary ---
-build/
-bin/
-out/
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
 *.exe
 *.out
 *.app
-*.o
-*.obj
+*.i*86
+*.x86_64
+*.hex
 
-# --- CMake ---
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
-.cmake/
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
 
-# --- Video Service Specific (Important!) ---
-# Don't commit the raw or transcoded videos you test with
-*.mp4
-*.m3u8
-*.ts
-*.mov
-*.mkv
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
 
-# --- Node.js API ---
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
+# debug information files
+*.dwo
 
-# --- Environment & Secrets ---
-.env
-.env.local
-.env.*.local
-
-# --- IDEs & Editors ---
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# --- OS Specific ---
 .DS_Store
-.AppleDouble
-.LSOverride
-Icon
-Thumbs.db
+.vscode
